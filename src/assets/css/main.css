@@ -1,67 +1,77 @@
-/* .button {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Arial;
-  color: black;
-  font-size: 20px;
-  background: #ff0000;
-  padding: 40px 40px 40px 40px;
-  text-decoration: none;
-}
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/25ztV9sz6qahJsM7uaC5QA.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+  height: 450px;
+  width: auto;
+}  
 
-.button:hover {
-  background: #ffb700;
-  text-decoration: none;
-} */
-/* The sidebar menu */
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 
 body {
-    background-color: aliceblue;
-    text-align: center;
+    text-align: center; 
+    margin: 0px;
+    font-family: comic sans ms;
 }
 
-p1 {
+h1, h3 {
     font-family: comic sans ms;
     font-size: xx-large;
+    color: black;
 }
 
+.leo{
+  font-family: comic sans ms;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: justify;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
+li {
+  float: left;
+}
 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.btn-group button {
+  margin: auto;
+  background-color: #04AA6D; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
